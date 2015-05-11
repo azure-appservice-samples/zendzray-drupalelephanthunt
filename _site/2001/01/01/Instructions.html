@@ -2,196 +2,121 @@
 
 <p>Join the excursion to head home with your very own ZRay Elephant bobble head.</p>
 
-<h1 id="what_do_i_need">What do I need?</h1>
+<h1 id="what-do-i-need">What do I need?</h1>
 
 <ul>
-<li><a href="http://aka.ms/tryazuretoday">Microsoft Azure Trial Subscription</a></li>
-
-<li>About <strong>5 minutes</strong> in the hallway track</li>
+  <li><a href="http://aka.ms/tryazuretoday">Microsoft Azure Trial Subscription</a></li>
+  <li>About <strong>10 minutes</strong> in the hallway track</li>
 </ul>
 
-<h1 id="lets_do_this">Let’s do this!</h1>
+<h1 id="lets-do-this">Let’s do this!</h1>
 
-<h2 id="create_a_wordpress_web_app_in_azure_app_service">Create a WordPress web app in Azure App Service</h2>
+<h2 id="create-a-drupal-web-app-in-azure-app-service">Create a Drupal web app in Azure App Service</h2>
 
 <ol>
-<li>
-<p>Log in to the Azure Preview Portal.</p>
-</li>
+  <li>
+    <p><a href="https://portal.azure.com/#gallery/Acquiacom.AcquiaDrupal7MySQL">Create Web App with Drupal</a> (Click this link, then follow the instructions below)</p>
+  </li>
+  <li>
+    <p>Click on <strong>WEB APP</strong>, and provide the required values for configuring your web app.</p>
 
-<li>
-<p>Open the Azure Marketplace either by clicking the <strong>Marketplace</strong> icon, or by clicking the <strong>New</strong> icon on the bottom left of the dashboard, selecting <strong>Web + Mobile</strong> and then <strong>Azure Marketplace</strong> at the bottom.</p>
+    <ul>
+      <li><strong>URL</strong>: Unique Url for your site.</li>
+      <li><strong>App Service Plan</strong>: DrupalCon</li>
+      <li><strong>Pricing Tier</strong>:
+        <ul>
+          <li>Click Pricing Tier</li>
+          <li>
+            <p>Click View All</p>
 
-<p><img src="./media/website-from-gallery/startmarketplace.png" alt="Create New" /></p>
-</li>
+            <p><img src="./media/Web-App-Settings-Zend-Zray.png" alt="Pricing Tier" /></p>
+          </li>
+          <li>
+            <p>Select Free</p>
 
-<li>
-<p>Select <strong>Web Apps</strong>. Search for <strong>WordPress</strong> and click the <strong>WordPress</strong> icon.</p>
+            <p><img src="./media/Free-Tier.png" alt="Free Tier" /></p>
+          </li>
+        </ul>
+      </li>
+      <li><strong>Web App Settings</strong>: No Changes</li>
+      <li><strong>Location</strong>: No Changes</li>
+    </ul>
 
-<p><img src="./media/website-from-gallery/selectwordpress.png" alt="WordPress from list" /></p>
-</li>
-
-<li>
-<p>After reading the description of the WordPress app, select <strong>Create</strong>.</p>
-</li>
-
-<li>
-<p>Click on <strong>WEB APP</strong>, and provide the required values for configuring your web app.</p>
-
-<ul>
-<li>
-<p><strong>URL</strong>: Unique Url for your WordPress site.</p>
-</li>
-
-<li>
-<p><strong>App Service Plan</strong>: LoopConf</p>
-</li>
-
-<li>
-<p><strong>Pricing Tier</strong>:</p>
-
-<ul>
-<li>
-<p>Click Pricing Tier</p>
-</li>
-
-<li>
-<p>Click View All</p>
-
-<p><img src="./media/Web-App-Settings-Zend-ZRay.png" alt="Pricing Tier" /></p>
-</li>
-
-<li>
-<p>Select Free</p>
-
-<p><img src="./media/free-tier.png" alt="Free Tier" /></p>
-</li>
-</ul>
-</li>
-
-<li>
-<p><strong>Web App Settings</strong>: No Changes</p>
-</li>
-
-<li>
-<p><strong>Location</strong>: No Changes</p>
-</li>
-</ul>
-
-<p><img src="./media/website-from-gallery/configureweb.png" alt="configure your app" /></p>
-</li>
-
-<li>
-<p>Click on <strong>DATABASE</strong>, and provide the required values for configuring your MySQL database.</p>
-</li>
+    <p><img src="./media/website-from-gallery/configureweb.png" alt="configure your app" /></p>
+  </li>
+  <li>
+    <p>Click on <strong>DATABASE</strong>, and provide the required values for configuring your MySQL database.</p>
+  </li>
 </ol>
 
 <blockquote>
-<p>Accept the Legal Terms</p>
+  <p>Accept the Legal Terms</p>
 </blockquote>
 
 <p><img src="./media/website-from-gallery/configuredb.png" alt="configure database" /></p>
 
 <ol>
-<li>
-<p>If necessary, click <strong>SUBSCRIPTION</strong>, and specify the subscription to use.</p>
-</li>
+  <li>
+    <p>If necessary, click <strong>SUBSCRIPTION</strong>, and specify the subscription to use.</p>
+  </li>
+  <li>
+    <p>When you have finished defining the web app, click <strong>Create</strong>, and wait while the new web app is created.</p>
 
-<li>
-<p>When you have finished defining the web app, click <strong>Create</strong>, and wait while the new web app is created.</p>
+    <p>When the app has been created, you will see the resource group containing web app and database.</p>
 
-<p>When the app has been created, you will see the resource group containing web app and database.</p>
-
-<p><img src="./media/website-from-gallery/showgroup.png" alt="show group" /></p>
-</li>
+    <p><img src="./media/website-from-gallery/showgroup.png" alt="show group" /></p>
+  </li>
 </ol>
 
-<h2 id="launch_and_manage_your_wordpress_web_app">Launch and manage your WordPress web app</h2>
-
-<ol>
-<li>
-<p>Click on your new web app to see details about your app.</p>
-
-<p><img src="./media/Web-App-Settings.png" alt="launch dashboard" /></p>
-</li>
-
-<li>
-<p>On the <strong>Essentials</strong> page, click either <strong>Browse</strong> or the link under <strong>Url</strong> to open the web app’s welcome page.</p>
-
-<p><img src="./media/website-from-gallery/browse.png" alt="site URL" /></p>
-</li>
-
-<li>
-<p>If you have not installed WordPress, enter the appropriate configuration information required by WordPress and click <strong>Install WordPress</strong> to finalize configuration and open the web app’s login page.</p>
-</li>
-
-<li>
-<p>Click <strong>Login</strong> and enter your credentials.</p>
-</li>
-
-<li>
-<p>You’ll have a new WordPress web app that looks similar to the web app below.</p>
-
-<p><img src="./media/website-from-gallery/wordpressgallery-09.png" alt="your WordPress site" /></p>
-</li>
-</ol>
-
-<h2 id="enable_the_zray_addon">Enable the ZRay Add-on</h2>
+<h2 id="enable-the-zray-add-on">Enable the ZRay Add-on</h2>
 
 <p>In the Web App Created in the Previous steps:</p>
 
 <ol>
-<li>
-<p>Click <strong>Settings</strong></p>
+  <li>
+    <p>Click <strong>Settings</strong></p>
 
-<p><img src="./media/Web-App-Settings.png" alt="" /></p>
-</li>
+    <p><img src="./media/Web-App-Settings.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Click <strong>Zend Z-Ray</strong></p>
 
-<li>
-<p>Click <strong>Zend Z-Ray</strong></p>
+    <p><img src="./media/Web-App-Settings-Zend-Zray.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Click <strong>Enable Zend Z-Ray</strong></p>
 
-<p><img src="./media/Web-App-Settings-Zend-ZRay.png" alt="" /></p>
-</li>
+    <p><img src="./media/Zend-ZRay-Enable.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Select the <strong>Free Tier</strong></p>
 
-<li>
-<p>Click <strong>Enable Zend Z-Ray</strong></p>
+    <p><img src="./media/Zend-ZRay-Price-Picker.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Accept the <strong>license</strong></p>
 
-<p><img src="./media/Zend-ZRay-Enable.png" alt="" /></p>
-</li>
+    <p><img src="./media/Zend-ZRay-License.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Track the install progress on the Notification Hub.</p>
 
-<li>
-<p>Select the <strong>Free Tier</strong></p>
+    <p><img src="./media/Zend-ZRay-Enabling.png" alt="" /></p>
+  </li>
+  <li>
+    <p>The notification returns successful</p>
 
-<p><img src="./media/Zend-ZRay-Price-Picker.png" alt="" /></p>
-</li>
+    <p><img src="./media/Zend-ZRay-Purchased.png" alt="" /></p>
+  </li>
+  <li>
+    <p>The Add-on is enabled, click on the <strong>management</strong> link to administer the extension</p>
 
-<li>
-<p>Accept the <strong>license</strong></p>
+    <p><img src="./media/Zend-ZRay-Enabled.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Browse to the Drupal site from the previous step to verify the Z-Ray bar is injected at the bottom of the page</p>
 
-<p><img src="./media/Zend-ZRay-License.png" alt="" /></p>
-</li>
-
-<li>
-<p>Track the install progress on the Notification Hub.</p>
-
-<p><img src="./media/Zend-ZRay-Enabling.png" alt="" /></p>
-</li>
-
-<li>
-<p>The notification returns successful</p>
-
-<p><img src="./media/Zend-ZRay-Purchased.png" alt="" /></p>
-</li>
-
-<li>
-<p>The Add-on is enabled, click on the <strong>management</strong> link to administer the extension</p>
-
-<p><img src="./media/Zend-ZRay-Enabled.png" alt="" /></p>
-</li>
-
-<li>
-<p>Browse to the WordPress site from the previous step to verify the Z-Ray bar is injected at the bottom of the page</p>
-
-<p><img src="./media/Zend-ZRay-Verified.png" alt="" /></p>
-</li>
+    <p><img src="./media/Zend-ZRay-Verified.png" alt="" /></p>
+  </li>
 </ol>
+

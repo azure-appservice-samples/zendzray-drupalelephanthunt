@@ -9,8 +9,6 @@ Join the excursion to head home with your very own ZRay Elephant bobble head.
 
 # Let's do this!
 
-## Create a WordPress web app in Azure App Service
-
 {% include website-from-gallery.md  %}
 
 ## Enable the ZRay Add-on
@@ -49,7 +47,7 @@ In the Web App Created in the Previous steps:
 
    ![][80]
 
-1. Browse to the WordPress site from the previous step to verify the Z-Ray bar is injected at the bottom of the page
+1. Browse to the Drupal site from the previous step to verify the Z-Ray bar is injected at the bottom of the page
 
    ![][90]
 
