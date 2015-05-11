@@ -21,7 +21,7 @@ In the Web App Created in the Previous steps:
 
 1. Click **Zend Z-Ray**
 
-   ![][20]
+   ![][24]
 
 1. Click **Enable Zend Z-Ray**
 
@@ -52,7 +52,7 @@ In the Web App Created in the Previous steps:
    ![][90]
 
 [10]: ./media/Web-App-Settings.png
-[20]: ./media/Web-App-Settings-Zend-Zray.png
+[24]: ./media/Web-App-Settings-Zend-Zray.png
 [30]: ./media/Zend-ZRay-Enable.png
 [40]: ./media/Zend-ZRay-Price-Picker.png
 [50]: ./media/Zend-ZRay-License.png
